@@ -1,8 +1,10 @@
+import { Greet } from "./components/Greet"
+
 export const App = () =>{
   return(
     <>
-      <h1>Hello</h1>
-      <h2>Bye </h2>
+      <Greet></Greet>
+      <Greet></Greet>
     </>
   
   )

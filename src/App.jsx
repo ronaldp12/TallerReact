@@ -1,10 +1,9 @@
-import { Greet } from "./components/Greet"
+import { Home } from "./components/Pages/Home/Home"
 
 export const App = () =>{
   return(
     <>
-      <Greet></Greet>
-      <Greet></Greet>
+      <Home/>
     </>
   
   )
